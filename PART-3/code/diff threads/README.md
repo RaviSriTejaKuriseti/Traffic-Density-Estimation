@@ -1,8 +1,8 @@
-#Instructions to run the file
-1)Open the terminal and navigate to the folder containing the code
-2)Store the location of image which needs to be processed in the code.
+<b>Instructions to run the file</b><br>
+1)Open the terminal and navigate to the folder containing the code.<br>
+2)Store the location of image which needs to be processed in the code.<br>
 
-To compile the code use the command
+To compile the code use the command<br>
 
 ```C
 make all 
@@ -14,10 +14,13 @@ Then to execute the code use the command
 make run
 ```
 
-After executing above commands, the terminal displays no.of frames in the video and fps at which video is executed.After running the video,the data is written to a data.text file which is converted to data.csv using a pythoncode that can be used for plotting graph in excel.For speeding up the process we are using every third frame for graph plotting and processing.For background subtraction we used an empty frame from the video which was saved as requiredimage.jpg in this directory.
+After executing these commands, the terminal shows a prompt asking us to enter the parameter which is the no.of frames to be skipped to calculate the queue density.After executing above commands, the terminal displays no.of frames in the video and fps at which video is executed and the output is written to the file "skipping each k th frame.txt" where k is the parameter entered.
 
 For removing the executable use the command
 
 ```C
 make clean
 ```
+
+<b>NOTE:</b>
+The code is giving incorrect values so we didn't use this data to plot graphs.

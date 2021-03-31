@@ -1,6 +1,6 @@
-#Instructions to run the file
-1)Open the terminal and navigate to the folder containing the code
-2)Store the location of image which needs to be processed in the code.
+<b>Instructions to run the file</b><br>
+1)Open the terminal and navigate to the folder containing the code<br>
+2)Store the location of image which needs to be processed in the code.<br>
 
 To compile the code use the command
 

@@ -46,13 +46,13 @@ def utilitypercent(L):
 
 X=fl("base.txt",5737)
 
-vec2=[fl("Using 2 threads.txt",5737),fl("Using 3 threads.txt",5737),fl("Using 4 threads.txt",5737),fl("Using 5 threads.txt",5737)]
+vec2=[fl("Using 1 threads.txt",5737),fl("Using 2 threads.txt",5737),fl("Using 3 threads.txt",5737),fl("Using 4 threads.txt",5737),fl("Using 5 threads.txt",5737)]
 A=[]
 B=[]
 
 
 for i in range(0,len(vec2)):
-	A.append(i+2)
+	A.append(i+1)
 	B.append(vec2[i][1]*0.000001)
     
 
@@ -65,7 +65,7 @@ plt.ylabel("Runtime in seconds")  # add Y-axis label
 plt.title("Plot of No.of threads vs runtime")  # add title
 plt.show()
 
-#A=[2, 3, 4, 5]
+#A=[1,2, 3, 4, 5]
 #B=[183.288793, 182.028051, 181.227609, 187.827055]#
 
 
